@@ -46,7 +46,7 @@ In a financial context, the stationary distribution can reveal the long-term pro
 #### 1. Regime-Switching Models
 One of the most powerful applications is the **Hidden Markov Model (HMM)**. In this model, the market's underlying state (e.g., high volatility vs. low volatility) is not directly observable—it's "hidden." What we do observe is the **output** from that state, such as asset returns. For example, a high-volatility regime might produce large price swings, while a low-volatility regime produces small, steady movements. An HMM uses Markov chains to model the transitions between these hidden regimes and uses the observed returns to infer the probability of being in each regime at any given time. This is a far more realistic approach to modeling market behavior than assuming a single, constant volatility. 
 
-[Image of Hidden Markov Model diagram]
+![Hidden markov model image](./hidden_markov_model.jpg)
 
 
 #### 2. Credit Risk and Transition Matrices
