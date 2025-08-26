@@ -91,4 +91,4 @@ While the memoryless property is a strong assumption, Markov chains provide a po
 
 ---
 
-In [part 2](https://github.com/handiko/Markov-Chain-UpDown-Day/blob/main/README.md), we are trying to use the Markov Chain theory to analyze a Forex Pair, [here](https://github.com/handiko/Markov-Chain-UpDown-Day/blob/main/README.md)
+Next Section (part 2): [Using Markov chain to analyze first insight of a forex pair, index, or any market](https://github.com/handiko/Markov-Chain-UpDown-Day/blob/main/README.md)
