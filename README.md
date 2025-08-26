@@ -70,7 +70,7 @@ Markov models can be integrated into asset pricing models. For instance, a **Mar
 
 ### A Practical Example: Estimating the Transition Matrix
 
-The key challenge for practitioners is estimating the transition matrix $P$ from historical data. This is typically done using the **Maximum Likelihood Estimation** method. For each state transition, we simply count the number of times it occurred and divide by the total number of times the system was in the starting state.
+The key challenge for practitioners is estimating the transition matrix $P$ from historical data. This is typically done using the **Maximum Likelihood Estimation** method. For each state transition, we simply count the number of times it occurred and divide by the total number of times the system was started.
 
 Let $n_{ij}$ be the number of observed transitions from state $s_i$ to $s_j$.
 Let $n_i$ be the total number of times the system was in state $s_i$.
@@ -81,7 +81,9 @@ $$\hat{P}_{ij} = \frac{n_{ij}}{n_i}$$
 For example, if the market was in an "Up" state 500 times, and 300 of those times it stayed "Up" the next day, while 150 times it went "Down" and 50 times it went "Flat," the estimated probabilities would be:
 
 $p_{\text{UU}} = 300/500 = 0.6$
+
 $p_{\text{UD}} = 150/500 = 0.3$
+
 $p_{\text{UF}} = 50/500 = 0.1$
 
 While the memoryless property is a strong assumption, Markov chains provide a powerful and flexible framework for modeling dynamic systems in finance. By embracing this probabilistic approach, practitioners can gain valuable insights into market behavior, manage risk, and optimize investment decisions in a world of constant change.
