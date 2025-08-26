@@ -1,4 +1,4 @@
-# Markov Chains in Financial Markets: From Theory to Practice
+# Markov Chains in Financial Markets
 
 Markov chains are a class of stochastic models used to describe a sequence of possible events where the probability of each event depends only on the state attained in the previous event. This **"memoryless"** property is what makes them both simple and powerful. In financial markets, this translates to the assumption that the future behavior of an asset or market regime is solely dependent on its current state, not on how it arrived there. While this is a simplification, it forms the basis for a surprisingly effective analytical framework.
 
@@ -68,7 +68,7 @@ Markov models can be integrated into asset pricing models. For instance, a **Mar
 
 ---
 
-### A Practical Example: Estimating the Transition Matrix
+### An Example: Estimating the Transition Matrix
 
 The key challenge for practitioners is estimating the transition matrix $P$ from historical data. This is typically done using the **Maximum Likelihood Estimation** method. For each state transition, we simply count the number of times it occurred and divide by the total number of times the system was started.
 
