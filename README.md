@@ -1,4 +1,4 @@
-# A Deeper Dive into Markov Chains in Financial Markets: From Theory to Practice
+# Markov Chains in Financial Markets: From Theory to Practice
 
 Markov chains are a class of stochastic models used to describe a sequence of possible events where the probability of each event depends only on the state attained in the previous event. This **"memoryless"** property is what makes them both simple and powerful. In financial markets, this translates to the assumption that the future behavior of an asset or market regime is solely dependent on its current state, not on how it arrived there. While this is a simplification, it forms the basis for a surprisingly effective analytical framework.
 
