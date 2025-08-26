@@ -1,5 +1,5 @@
 # Markov Chains in Financial Markets
-
+-- Part 1 --
 Markov chains are a class of stochastic models used to describe a sequence of possible events where the probability of each event depends only on the state attained in the previous event. This **"memoryless"** property is what makes them both simple and powerful. In financial markets, this translates to the assumption that the future behavior of an asset or market regime is solely dependent on its current state, not on how it arrived there. While this is a simplification, it forms the basis for a surprisingly effective analytical framework.
 
 ## The Mathematical Foundation: States and Transition Probabilities
@@ -87,3 +87,7 @@ $p_{\text{UD}} = 150/500 = 0.3$
 $p_{\text{UF}} = 50/500 = 0.1$
 
 While the memoryless property is a strong assumption, Markov chains provide a powerful and flexible framework for modeling dynamic systems in finance. By embracing this probabilistic approach, practitioners can gain valuable insights into market behavior, manage risk, and optimize investment decisions in a world of constant change.
+
+---
+
+In [part 2](https://github.com/handiko/Markov-Chain-UpDown-Day), we are trying to use the Markov Chain theory to analyze a Forex Pair, [here](https://github.com/handiko/Markov-Chain-UpDown-Day)
