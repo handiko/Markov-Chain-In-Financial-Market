@@ -77,7 +77,7 @@ Let $n_{ij}$ be the number of observed transitions from state $s_i$ to $s_j$.
 Let $n_i$ be the total number of times the system was in state $s_i$.
 The estimated transition probability $\hat{P}_{ij}$ is:
 
-$$\hat{P}_{ij} = \frac{n_{ij}}{n_i}$$
+$\hat{P}_{ij} = \frac{n_{ij}}{n_i}$
 
 For example, if the market was in an "Up" state 500 times, and 300 of those times it stayed "Up" the next day, while 150 times it went "Down" and 50 times it went "Flat," the estimated probabilities would be:
 
