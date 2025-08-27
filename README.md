@@ -78,7 +78,7 @@ Let $n_i$ be the total number of times the system was in state $s_i$.
 The estimated transition probability $\hat{P}_{ij}$ is:
 
 $$
-\hat{P}_{ij} = 
+P_{ij} = 
 \frac{n_{ij}}{n_i}
 $$
 
